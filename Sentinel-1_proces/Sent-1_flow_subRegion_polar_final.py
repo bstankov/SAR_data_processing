@@ -9,7 +9,7 @@ import matplotlib.colors as colors
 import os,sys,gc, glob,matplotlib
 import numpy as np
 
-sys.path.append(r'C:\Users/bob.stankovic/AppData/Local/conda/conda/envs/mysnapy/Lib/snappy')
+sys.path.append(r'C:\U......conda/envs/mysnapy/Lib/snappy')
 import matplotlib.pyplot as plt
 import matplotlib.colors as colors
 import snappy
@@ -34,7 +34,7 @@ import subprocess
 pd.options.display.max_colwidth = 80
 
 polar=['VH','VV']
-outpath = r'U:\RS_Task_Workspaces\bobo\New folder\sent_out'
+outpath = r'.....\bobo\New folder\sent_out'
 ###*************** 2. User defined functions    ****************
 #*******************************************************************
 def output_view(product, band, min_value_VV, max_value_VV, min_value_VH, max_value_VH):
@@ -79,7 +79,7 @@ def get_snap_info(operator):
 
 #*******************************************************************
 
-path = 'E:/Share/_LOCALdata/2019/IR/radar/PR/PR_South/'
+path = '......2019/IR/radar/PR/PR_South/'
 s1meta = "manifest.safe"
 os.chdir(path)
 #list to store all products
@@ -204,7 +204,7 @@ for calibrate in calibrates:
 #*****  8   Terrani   correction    ***********************
 #****************************************************
 
-mySRTMdem = 'U:/ZZZ_Archives/pre2020/project_workspace/recon/SRTM_30m_2015/mosaic/srtm_30m.tif'
+mySRTMdem = '....ace/recon/SRTM_30m_2015/mosaic/srtm_30m.tif'
 tcs=[]
 #export separate polarizaiton
 for p in polar:
